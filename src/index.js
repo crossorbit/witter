@@ -1,11 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import { createRoot } from "react-dom/client";
+//import App from './components/App';
+import App from 'components/App';
+//import firebase from "./firebase";
+import "./styles.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+/* 클론 코딩 가이드 -> React 버전 변경으로 작동 안되는 코드 많음
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById("root"),
+)
+*/ 
+
+const root = createRoot(document.getElementById("root"));
+
+root.render(
+  //<React.StrictMode>
+  <App />
+  //</React.StrictMode>
 );
 
