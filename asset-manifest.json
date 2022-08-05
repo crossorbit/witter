@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/crossorbit/witter/static/js/main.5c598c01.js",
-    "index.html": "/crossorbit/witter/index.html",
-    "main.5c598c01.js.map": "/crossorbit/witter/static/js/main.5c598c01.js.map"
+    "main.js": "/witter/static/js/main.60321aab.js",
+    "index.html": "/witter/index.html",
+    "main.60321aab.js.map": "/witter/static/js/main.60321aab.js.map"
   },
   "entrypoints": [
-    "static/js/main.5c598c01.js"
+    "static/js/main.60321aab.js"
   ]
 }
